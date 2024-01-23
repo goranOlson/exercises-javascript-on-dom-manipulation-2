@@ -54,3 +54,12 @@ listPaste.children[2].innerText = "3tsk vaniljsocker";
 const lastItem = document.createElement('li');
 lastItem.innerText = "400g naturell philadelphiaost";
 listPaste.append(lastItem);
+
+/* 12 */
+const instuctionsHeader = document.querySelector('.how-to-do .instructions');
+instuctionsHeader.classList.remove('shadow');
+
+/* 13 */
+const instructionList = document.querySelector('.instructions-list');
+instructionList.children[1].innerText = "Separera ägggulor och äggvitor. Äggvitorna lägger du i en stor bunke, äggulorna i en liten bunke.";
+instructionList.children[8].innerText = "Ställ in i frysen över natten.";
